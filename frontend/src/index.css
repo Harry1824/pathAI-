@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-background: #0b0c10;
+  --color-panel: rgba(31, 40, 51, 0.8);
+  --color-cyan: #66fcf1;
+  --color-teal: #45a29e;
+  --color-textMain: #c5c6c7;
+  --color-textLight: #ffffff;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-textMain);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+}
